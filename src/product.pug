@@ -24,21 +24,22 @@ block Header
 							a(class="nav-link" href="#") #[i.fas.fa-question.mx-1] الأسئلة الشائعة
 						li(class="nav-item dropdown")
 							// use icon fontAwesome 5
-							a(class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") #[i.far.fa-user-circle.mx-1] تسجيل الدخول
-							div( class="dropdown-menu" aria-labelledby="navbarDropdown")
-								a(class="dropdown-item" href="#") Action
-								a(class="dropdown-item" href="#") Another action
-								div(class="dropdown-divider")
-								a(class="dropdown-item" href="#") Something else here
+							a(class="nav-link" href="Account.html") #[i.far.fa-user-circle.mx-1]  تسجيل الدخول
+							//- a(class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") #[i.far.fa-user-circle.mx-1] تسجيل الدخول
+							//- div( class="dropdown-menu" aria-labelledby="navbarDropdown")
+							//- 	a(class="dropdown-item" href="#") Action
+							//- 	a(class="dropdown-item" href="#") Another action
+							//- 	div(class="dropdown-divider")
+							//- 	a(class="dropdown-item" href="#") Something else here
 						li(class="nav-item search not-home")
 							form.form-search
 								input(type="search" class="form-control" id="search" aria-describedby="searchHelp")
 							// use icon fontAwesome 5
 							a(class="nav-link" href="#") #[i.fas.fa-search.mx-1]
 						li(class="nav-item cart d-inline-block")
-							span.total-cart 0
+							span.total-cart.shadow-sm 0 
 							// use icon fontAwesome 5
-							a(class="nav-link" href="#") #[i.fas.fa-shopping-cart.animation-cart.mx-1]
+							a(class="nav-link" href="Cart.html") #[i.fas.fa-shopping-cart.mx-1]
 
 block contentPage
 	// Start section path
